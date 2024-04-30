@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Artes e Encantos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Nossos Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="cart-sidebar-toggler"><i class="fas fa-shopping-cart"></i> Carrinho</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Principais Produtos -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/pote_artesanato1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Potes Decorativos</h5>
+                        <p class="card-text">Descrição do Produto 1.</p>
+                        <p class="card-text">Preço: 10,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="1" data-name="Potes decorativos" data-price="10">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/garrafa_artesanato2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Garrafas Decorativas</h5>
+                        <p class="card-text">Descrição do Produto 2.</p>
+                        <p class="card-text">Preço: 15,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="2" data-name="Garrafas Decorativas" data-price="15">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/apanhadorsonhos_artesanato3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Filtro dos Sonhos</h5>
+                        <p class="card-text">Descrição do Produto 3.</p>
+                        <p class="card-text">Preço: 10,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="3" data-name="Filtro dos Sonhos" data-price="10">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 4 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/animais_artesanato4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Miniaturas Animais</h5>
+                        <p class="card-text">Descrição do Produto 4.</p>
+                        <p class="card-text">Preço: 10,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="4" data-name="Miniaturas Animais" data-price="10">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 5 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/caixadecorativa_artesanato5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Caixa Decorativa</h5>
+                        <p class="card-text">Descrição do Produto 5.</p>
+                        <p class="card-text">Preço: 17,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="5" data-name="Caixa Decorativa" data-price="17">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 6 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/portachaves_artesanato6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Porta Chaves Decorativo</h5>
+                        <p class="card-text">Descrição do Produto 6.</p>
+                        <p class="card-text">Preço: 20,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="6" data-name="Porta Chaves Decorativo" data-price="20">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 7 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/bolsa_artesanato7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsa Croche</h5>
+                        <p class="card-text">Descrição do Produto 7.</p>
+                        <p class="card-text">Preço: 20,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="7" data-name="Bolsa Croche" data-price="20">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 8 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/saiacroche_artesanato8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Saia Croche</h5>
+                        <p class="card-text">Descrição do Produto 8.</p>
+                        <p class="card-text">Preço: 20,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="8" data-name="Saia Croche" data-price="20">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 9 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/vestidocroche_artesanato9.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestido Croche</h5>
+                        <p class="card-text">Descrição do Produto 9.</p>
+                        <p class="card-text">Preço: 30,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="9" data-name="Vestido Croche" data-price="30">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 10 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/tapetefiomalha_artesanato10.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tapete Decorativo</h5>
+                        <p class="card-text">Descrição do Produto 10.</p>
+                        <p class="card-text">Preço: 13,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="10" data-name="Tapete Decorativo" data-price="13">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 11 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/gaiolas_artesanato11.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Gaiolas Decorativas</h5>
+                        <p class="card-text">Descrição do Produto 11.</p>
+                        <p class="card-text">Preço: 50,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="11" data-name="Gaiolas Decorativas" data-price="50">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 12 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/coruja_artesanato13.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Coruja Vigilante</h5>
+                        <p class="card-text">Descrição do Produto 12.</p>
+                        <p class="card-text">Preço: 15,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="12" data-name="Coruja Vigilante" data-price="15">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 13 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/carrinhodecorativo_artesanato14.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrinho Jardim Decorativo</h5>
+                        <p class="card-text">Descrição do Produto 13.</p>
+                        <p class="card-text">Preço: 300,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="13" data-name="Carrinho Jardim Decorativo" data-price="300">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 14 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/placagatinhos_artesanato15.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Placa Gatinhos Decorativos</h5>
+                        <p class="card-text">Descrição do Produto 14.</p>
+                        <p class="card-text">Preço: 15,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="14" data-name="Placa Gatinhos Decorativos" data-price="15">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 15 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/estante_artesanato16.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Prateleira Suspensa</h5>
+                        <p class="card-text">Descrição do Produto 15.</p>
+                        <p class="card-text">Preço: 25,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="15" data-name="Prateleira Suspensa" data-price="25">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 16 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/mesacentro_artesanato17.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Mesa de Centro</h5>
+                        <p class="card-text">Descrição do Produto 16.</p>
+                        <p class="card-text">Preço: 35,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="16" data-name="Mesa de Centro" data-price="35">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 17 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/prateleiraparede_artesanato18.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Prateleira Suspensa Decorativa</h5>
+                        <p class="card-text">Descrição do Produto 17.</p>
+                        <p class="card-text">Preço: 45,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="17" data-name="Prateleira Suspensa Decorativa" data-price="45">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 18 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/chaveiro_artesanato19.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Chaveiros Decorativos</h5>
+                        <p class="card-text">Descrição do Produto 18.</p>
+                        <p class="card-text">Preço: 6,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="18" data-name="Chaveiros Decorativos" data-price="6">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 19 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="itens/jarropompom_artesanato20.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaso Flores Pompom</h5>
+                        <p class="card-text">Descrição do Produto 19.</p>
+                        <p class="card-text">Preço: 13,00 </p>
+                        <a href="#" class="btn btn-primary add-to-cart" data-id="19" data-name="Vaso Flores Pompom" data-price="13">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal de carrinho de compras -->
+    <div class="modal fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="checkoutModalLabel">Finalizar Pedido</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Preencha seus dados para finalizar o pedido</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contato">Nº de Contato:</label>
+                            <input type="text" class="form-control" id="contato" name="contato" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="municipio">Município:</label>
+                            <input type="text" class="form-control" id="municipio" name="municipio" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bairro">Bairro:</label>
+                            <input type="text" class="form-control" id="bairro" name="bairro" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rua">Rua:</label>
+                            <input type="text" class="form-control" id="rua" name="rua" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="numero">Nº da casa/Apartamento:</label>
+                            <input type="text" class="form-control" id="numero" name="numero" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="forma_pagamento">Forma de Pagamento:</label>
+                            <select class="form-control" id="forma_pagamento" name="forma_pagamento" required>
+                                <option value="dinheiro">Dinheiro</option>
+                                <option value="cartao">Cartão Crédito/Débito</option>
+                                <option value="pix">Pix</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Finalizar Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrinho de compras -->
+    <div id="cart-sidebar">
+        <div id="cart-content">
+            <h4>Carrinho de Compras</h4>
+            <ul id="cart-items">
+                <!-- Produtos do carrinho serão adicionados aqui -->
+            </ul>
+            <p id="cart-total">Total: R$ 0</p>
+            <button id="checkout-btn" class="btn btn-success btn-block" data-toggle="modal" data-target="#checkoutModal">Fechar Pedido</button>
+        </div>
+    </div>
+
+    <!-- Footer da Loja -->
+    <footer class="text-center text-lg-start mt-5 bg-light">
+        <div class="text-center p-3">
+            © 2024 Artes e Encantos
+        </div>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

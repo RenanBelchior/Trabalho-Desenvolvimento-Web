@@ -1,0 +1,57 @@
+body {
+    background-color: SaddleBrown;
+}
+
+.navbar {
+    background-color: #E9D758; /* Amarelo suave */
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+    color: #343a40; /* Cinza escuro */
+}
+
+#cart-sidebar-toggler {
+    color: #343a40; /* Cinza escuro */
+}
+
+.btn-primary {
+    background-color: #FF6B6B; /* Vermelho suave */
+    border-color: #FF6B6B; /* Vermelho suave */
+}
+
+.btn-primary {
+    color: #fff; /* Branco */
+}
+
+#cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Inicia oculto */
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#cart-sidebar.open {
+    right: 0;
+}
+
+#cart-content {
+    padding: 20px;
+    z-index: 1001; /* Para garantir que o conteúdo do carrinho fique por cima do restante */
+}
+
+/* Cor de fundo e texto do rodapé */
+footer {
+    color: black; /* Branco */
+    background-color: green;
+}
+
+/* Conteúdo da Página Sobre */
+.jumbotron {
+    background-color: #F9EBE0; /* Bege suave */
+}
