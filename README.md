@@ -17,6 +17,8 @@ Critérios de Avaliação
 9. Utilização de versionamento de código através do Git/Github 
 10. Vídeo apresentação do sistema (OBRIGATÓRIO)
 
+(Banco de Dados Relacional utilizado: MySQL)
+
 FRONT-END
 ![image](https://github.com/RenanBelchior/Trabalho-Desenvolvimento-Web/assets/102825017/e0015593-89fb-4395-895d-20a87a1605af)
 
