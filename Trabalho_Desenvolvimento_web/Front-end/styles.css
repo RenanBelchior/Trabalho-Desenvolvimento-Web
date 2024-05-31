@@ -1,33 +1,33 @@
 body {
-    background-color: SaddleBrown;
+    background-color: lightpink;
 }
 
 .navbar {
-    background-color: #E9D758; /* Amarelo suave */
+    background-color: #FF6B6B; 
 }
 
 .navbar .navbar-brand,
 .navbar .navbar-nav .nav-link {
-    color: #343a40; /* Cinza escuro */
+    color: #343a40; 
 }
 
 #cart-sidebar-toggler {
-    color: #343a40; /* Cinza escuro */
+    color: #343a40; 
 }
 
 .btn-primary {
-    background-color: #FF6B6B; /* Vermelho suave */
-    border-color: #FF6B6B; /* Vermelho suave */
+    background-color: #FF6B6B; 
+    border-color: #FF6B6B; 
 }
 
 .btn-primary {
-    color: #fff; /* Branco */
+    color: #fff; 
 }
 
 #cart-sidebar {
     position: fixed;
     top: 0;
-    right: -300px; /* Inicia oculto */
+    right: -300px; 
     width: 300px;
     height: 100%;
     background: #fff;
@@ -42,16 +42,14 @@ body {
 
 #cart-content {
     padding: 20px;
-    z-index: 1001; /* Para garantir que o conteúdo do carrinho fique por cima do restante */
+    z-index: 1001; 
 }
 
-/* Cor de fundo e texto do rodapé */
 footer {
-    color: black; /* Branco */
+    color: black; 
     background-color: green;
 }
 
-/* Conteúdo da Página Sobre */
 .jumbotron {
-    background-color: #F9EBE0; /* Bege suave */
+    background-color: #F9EBE0; 
 }
